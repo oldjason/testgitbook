@@ -5,9 +5,10 @@
 3. create - mongo cron table
 4. 使用者預先設定 cron time
 5. 使用者在 portal 預先設定 MOT day, topic, message
-6. backend-api-mibo-store 在 server start 的時候載入 cron time \(like: 0 0 12 \* \* \*\)
+6. event service 在 server start 的時候載入 cron time \(like: 0 0 12 \* \* \*\), 送 message 到 message queue
+7. backend-api-mibo-store 接收 message queue, 執行 task
 
-# Cron
+# Task
 
 1. 讀取 MOT setting \(like: Day1 show 'Welcome'\)
 2. 確認 Mibo create date, 得到符合的 Mibo
