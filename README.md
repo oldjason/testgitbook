@@ -8,7 +8,6 @@
 4. use backend-api-mibo-store to use cron
 5. add - mqtt service: grpc & API
 6. portal - mot setting
-7. for example, every 12:00 execute job, load mot settings, query users, insert mot job, send mqtt, update mot job
 
 ## Modified Project
 

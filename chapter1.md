@@ -3,8 +3,9 @@
 1. create - mysql mot settings table
 2. create - mysql mot job table
 3. create - mongo cron table
-4. 使用者在 portal 預先設定 MOT day, topic, message
-5. backend-api-mibo-store 在 server start 的時候載入 cron time \(like: 0 0 12 \* \* \*\)
+4. 使用者預先設定 cron time
+5. 使用者在 portal 預先設定 MOT day, topic, message
+6. backend-api-mibo-store 在 server start 的時候載入 cron time \(like: 0 0 12 \* \* \*\)
 
 # Cron
 
