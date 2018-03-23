@@ -1,6 +1,6 @@
 # Intro
 
-## Flow
+## Step
 
 1. create - mysql mot settings table
 2. create - mysql mot job table
