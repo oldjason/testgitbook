@@ -3,7 +3,7 @@
 1. create - mysql mot settings table
 2. create - mysql mot job table
 3. create - mongo cron table
-4. user pre-define MOT day, topic, message
+4. user pre-define MOT day, topic, message in portal
 
 # Cron
 
