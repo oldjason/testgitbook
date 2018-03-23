@@ -13,7 +13,9 @@
 2. 確認 Mibo create date, 得到符合的 Mibo
 3. 寫入 MOT job history table - status = init
 4. call GRPC - MQTT \(mqtt topic: mibo/v1/{miboId}/server/events/mot\)
-   1. mqtt received: {"header":{"mId":"JasondeMacBook-Pro-2.local:192.168.102.52:3c50f83c","timestamp":"1521686480691"},"body":{"topic":"welcome","message":"welcome message"}}
+   ```
+   mqtt received: {"header":{"mId":"JasondeMacBook-Pro-2.local:192.168.102.52:3c50f83c","timestamp":"1521686480691"},"body":{"topic":"welcome","message":"welcome message"}}
+   ```
 5. 更新 MOT job history table - status = finish
 
 
