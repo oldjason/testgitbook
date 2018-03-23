@@ -15,7 +15,7 @@
 1. dsl
 2. nuwa\_node\_module
 3. backend-api-mibo-store
-4. frontend-platform
+4. frontend portal
 5. mqtt service
 
 
